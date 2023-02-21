@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Modern+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Holtwood+One+SC&family=Modern+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Holtwood+One+SC&family=Modern+Antiqua&family=RocknRoll+One&display=swap');
+
+header > h1 {
+    font-family: 'Holtwood One SC', serif;
+    background-color: #38250d;  
+    color: burlywood;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.719);  
+    
+    
+    
+}
+picture {
+    margin-left: 350px;
+    
+
+}
+nav {
+    background-image: linear-gradient(to right,
+    #260C06, #59220E, 
+    #8C3616);
+    padding: 3px;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-size: 18px;
+        
+    }
+    nav > a {
+        text-decoration: none;
+        color: rgb(228, 228, 181);
+        font-weight: normal;
+        margin-right: 35px;
+            }
+
+        
+    
+
+        
+        
+    
+nav>a:hover {
+    text-decoration: underline;
+    color: rgb(153, 30, 30);
+}
+
+
+body {
+    background-image: url(saloon/jamie-mann-screenshot00005.jpg);
+    }
+
+
+h1 {
+    font-family: 'Holtwood One SC', serif;
+    background-color: rgb(222, 184, 135);
+    f
+}
+h2 {
+    font-family: 'Holtwood One SC', serif;
+    color: burlywood;
+    
+    
+    
+    
+}    
+    
+
+article {
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: larger;
+    color: rgb(228, 228, 181);
+    
+    
+}
+
+pre {
+    font-size: 35px;
+    color: aliceblue;
+    
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+  .slide {
+    display: block;
+    margin: 0;
+    
+  }
+  .slide > img {
+    border-radius: 5%;
+    border-style: solid;
+    max-height: 25em;
+    max-width: 50em;
+  }
+
+  div#flyer {
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 210px;
+    
+  }
+
+span {
+    padding: 3px;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+span>a  {
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 7px;
+}
+
+span > iframe {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+div > img { 
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    max-height: 35em;
+   } 
+
+h3 {
+    
+    display: block;
+    margin: auto;
+    color: rgb(228, 228, 181);
+    background-color: rgba(89, 34, 14, 0.827);
+    
+}
+
+
+
+
+.stream {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 1px 1px 1px 1px;
+    background-color: black;
+    
+   
+ 
+    
+}
+
